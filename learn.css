@@ -1,0 +1,87 @@
+#header{
+    height:400px;
+    background-image:url('Geometric-Shapes.jpg');
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-size:cover;
+    text-align:center;
+    margin-top:0;
+    display: table;
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+}
+
+.parallax-inner {
+
+    display: table-cell;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+
+}
+
+#gallery{
+    background-image:linear-gradient(to right,purple,pink,white,pink,purple);
+        margin-top:0;
+}
+#pic{
+    width:300px;
+    height:250px;
+    border-style:solid;
+    padding:10px;
+    text-align: center;
+}
+body{
+     margin: 0;
+    padding-top: 400px;
+    text-align: center;
+}
+button{
+   background-color:blueviolet;
+}
+#Family{
+    border-style:solid;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+    padding-left: 5px;
+    background-color:orange;
+}
+img{
+    width:300px;
+    height:300px;
+}
+.links{
+    display: inline;
+    padding-left: 20px;
+    padding-right: 25px;
+    font-family: fantasy;
+    font-size: 20px
+}
+.links:hover{
+    font-size: 25px;
+    text-decoration: underline;
+}
+.menu{
+    
+    position: fixed;
+     list-style-type: none;
+    background: white;
+    width: 100%;
+    margin-top: 0px;
+    top: 0px;
+    z-index: 10;
+}
+a{
+    text-decoration: none;
+    color: crimson;
+    text-shadow: 2px 2px gainsboro;
+}
+
+.article:hover{
+    color:fuchsia;
+}
+html{
+    scroll-behavior: smooth;
+}
